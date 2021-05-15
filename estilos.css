@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url(img-fondo.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 8%;
+    padding: 3px;
+    border: 2px solid #45AA55;
+    border-radius: 7px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+
+h5 {
+    text-align: center;
+    color: #45AA55;
+    font-size: 22px;
+    margin-bottom: 1%;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px;
+    /* width: 70%; */
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor {
+    margin-bottom: 15px;
+    border: 2px solid #45AA55;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.icon { 
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button {
+    border: none;
+    width: 20%;
+    margin-left: 40%;
+    color: white;
+    font-size: 20px;
+    background: #45AA55;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: cadetblue;
+}
+
+.deslizar {
+    border: none;
+    width: 22%;
+    margin-left: 39%;
+    color: white;
+    font-size: 12px;
+    background: #45aa56ad;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.deslizar:hover {
+    background: cadetblue;
+}
+
+p {
+    text-align: center;
+}
+
+/* .link {
+    text-decoration: none;
+    color: #45AA55;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: cadetblue;
+} */
+
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 8%;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
